@@ -1,6 +1,7 @@
 # Projeto MVC de Gestão de Pessoas para Passeios Turísticos 
 
-##Visão Geral
+## Visão Geral
+
 Este é um projeto de sistema de gestão de pessoas para passeios turísticos, desenvolvido usando uma arquitetura Model-View-Controller (MVC). O projeto utiliza o framework Laravel para o back-end e Angular para o front-end.
 
 ## Funcionalidades Principais
@@ -48,50 +49,51 @@ Clone o repositório:
 bash
 Copy code
 `git clone https://github.com/jrodrigosantosm/gestorDePessoas.git`
-Instale as dependências do Composer:
 
+Instale as dependências do Composer:
 bash
 Copy code
 cd seu-repositorio/backend
 `composer install`
+
 Copie o arquivo .env.example para .env e configure o banco de dados e outras variáveis de ambiente.
 
 Gere a chave de aplicação:
-
 bash
 Copy code
 `php artisan key:generate`
-Execute as migrações do banco de dados:
 
+Execute as migrações do banco de dados:
 bash
 Copy code
 `php artisan migrate`
-Instale e configure o Laravel Passport para autenticação de API:
 
+Instale e configure o Laravel Passport para autenticação de API:
 bash
 Copy code
 `php artisan passport:install`
-Inicie o servidor:
 
+Inicie o servidor:
 bash
 Copy code
 `php artisan serve`
 Configuração do Front-end (Angular)
+
 Navegue até o diretório do front-end:
 
 bash
 Copy code
 cd seu-repositorio/frontend
 Instale as dependências do npm:
-
 bash
 Copy code
 `npm install`
-Inicie o servidor de desenvolvimento:
 
+Inicie o servidor de desenvolvimento:
 bash
 Copy code
 `ng serve`
+
 Acesse o aplicativo no navegador: http://localhost:4200
 
 Contribuição

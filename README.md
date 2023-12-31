@@ -77,6 +77,7 @@ Inicie o servidor:
 bash
 Copy code
 `php artisan serve`
+
 Configuração do Front-end (Angular)
 
 Navegue até o diretório do front-end:

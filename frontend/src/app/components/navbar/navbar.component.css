@@ -1,0 +1,40 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  
+}
+
+.navbar {
+  background-color: #060127;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+}
+
+.logo img {
+  width: 70px;
+  padding-left: 5px;
+  margin: 0;
+}
+
+.menu a, .login a {
+  text-decoration: none;
+  color: #FFA800;
+  margin: 0 10px;
+  transition: color 0.3s ease-in-out;
+}
+
+.menu a:hover, .login a:hover {
+  color: #61dafb; /* Azul mais claro para destacar no hover */
+}
+
+.conteudo {
+  padding: 20px;
+}
+
+.login{
+  margin-right: 20px;
+}

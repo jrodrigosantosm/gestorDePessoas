@@ -18,9 +18,7 @@ class UserController extends Controller
 
     public function index()
     {
-        $users = $this->repository->paginate();
-
-        return UserResource::collection($users);
+        die('aqui');
     }
 
     public function store(StoreUpdateUserRequest $request)
